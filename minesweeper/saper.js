@@ -115,8 +115,8 @@ function createResetListener() {
 
     function addFlag(square){
         if(gameIsOver) return;
-        if(!square.classList.contains('checked')&& flags < bombQuant){
-            if(!square.classList.contains('flag') &&!square.classList.contains('question')){
+        if(!square.classList.contains('checked')/*&& flags < bombQuant*/){
+            if(!square.classList.contains('flag') &&!square.classList.contains('question') && (bombQuant - flags) > 0){
                 square.classList.add('flag');
                 square.innerHTML = ' 🚩';
                 flags++;
