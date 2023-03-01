@@ -1,0 +1,62 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    margin: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+/* for cells 25*16 = 400px */
+.grid div {
+    height: 23px;
+    width: 23px;
+    border: 1px solid white;
+}
+.inline {
+    width: 340px;
+    display:flex;
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-top: 5px;
+    background-color: lightgrey;
+}
+img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.checked {
+    background-color: darkgray;
+}
+
+.bomb {
+    /* content: '\1F4A3'; */
+    background-color: lightgray;
+    /* background-color: red; */
+
+}
+
+.one {
+    color: #e76346;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .two {
+    color: #4199d3;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  
+  .three {
+    color: #57da59;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .four{
+    color: #bb41d3;
+    text-align: center;
+    font-weight: bold;
+  }
